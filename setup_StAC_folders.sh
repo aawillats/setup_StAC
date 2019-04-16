@@ -24,6 +24,8 @@ git clone https://github.com/awillats/StAC_rtxi.git
 git clone https://github.com/eigenteam/eigen-git-mirror.git
 mv eigen-git-mirror eigen
 
+git clone https://github.com/awillats/hmm.git hmmX/hmm
+
 #get the step by step instructions for this from michael
 #git clone https://github.com/mfbolus/cpp-dynCtrlEst.git
 #git clone https://github.com/mfbolus/StanleyRTXI.git
@@ -31,7 +33,7 @@ mv eigen-git-mirror eigen
 cd "$LOCAL_HOME/$HMM_PATH"
 git clone https://github.com/awillats/rtxi_hmm_decoder.git
 git clone https://github.com/awillats/rtxi_hmm_generator.git
-git clone https://github.com/awillats/hmm.git hmmX/hmm
+
 
 cd "$LOCAL_HOME/$SS_PATH"
 git clone https://github.com/awillats/ss_ctrl.git
