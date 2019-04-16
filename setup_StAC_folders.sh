@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e #prevents script from continuing if it encounters a mistake
 #set up some basic path definitions
+
+echo "Please make sure youve double checked the LOCAL_HOME path in this setup script!"
+
 LOCAL_HOME="/Users/adam/testDir"
 HMM_PATH="modules/hmm_modules"
 SS_PATH="modules/ss_modules"
@@ -16,7 +19,7 @@ mkdir workspaces
 #helper modules
 cd "$LOCAL_HOME/$HELP_PATH"
 git clone https://github.com/awillats/StAC_rtxi.git
-https://github.com/eigenteam/eigen-git-mirror.git
+git clone https://github.com/eigenteam/eigen-git-mirror.git
 mv eigen-git-mirror eigen
 
 #get the step by step instructions for this from michael
