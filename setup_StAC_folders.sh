@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e #prevents script from continuing if it encounters a mistake
 #set up some basic path definitions
 LOCAL_HOME="/Users/adam/testDir"
 HMM_PATH="modules/hmm_modules"
