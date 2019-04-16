@@ -5,8 +5,8 @@ set -e #prevents script from continuing if it encounters a mistake
 echo "Please make sure youve double checked the LOCAL_HOME path in this setup script!"
 echo "if this script errors, try running reset_StAC_folders.sh before retrying"
 
-LOCAL_HOME="/Users/adam/Documents/GitHub/rtxi_vm_copy/setup_StAC"
-#"/Users/adam/testDir"
+LOCAL_HOME="/home/adam/RTXI"
+
 HMM_PATH="modules/hmm_modules"
 SS_PATH="modules/ss_modules"
 SIG_PATH="modules/signal_modules"
