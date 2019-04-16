@@ -31,7 +31,7 @@ mv eigen-git-mirror eigen
 cd "$LOCAL_HOME/$HMM_PATH"
 git clone https://github.com/awillats/rtxi_hmm_decoder.git
 git clone https://github.com/awillats/rtxi_hmm_generator.git
-git clone https://github.com/awillats/hmm.git hmmX
+git clone https://github.com/awillats/hmm.git hmmX/hmm
 
 cd "$LOCAL_HOME/$SS_PATH"
 git clone https://github.com/awillats/ss_ctrl.git
