@@ -23,6 +23,9 @@ cd "$LOCAL_HOME/$HELP_PATH"
 git clone https://github.com/awillats/StAC_rtxi.git
 git clone https://github.com/eigenteam/eigen-git-mirror.git
 mv eigen-git-mirror eigen
+cd eigen
+git checkout branches/3.3
+cd ..
 
 git clone https://github.com/awillats/hmm.git hmmX/hmm
 
