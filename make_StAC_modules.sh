@@ -20,7 +20,7 @@ then
 
 else
    makeinstall() {
-   make clean
+   sudo make clean
    make 
    sudo make install
    }
