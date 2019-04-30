@@ -11,7 +11,8 @@ DOCLEAN=${1:--1};
 echo "$DOCLEAN"
 if [[ "$DOCLEAN" == -1 ]];
 then
-   echo "note: making without cleaning"
+#   echo "note: making without cleaning"
+   echo "note: printing all dirs that would be made. rerun with input to make"
    makeinstall() {
    pwd
    #make 
@@ -19,6 +20,7 @@ then
    }
 
 else
+   echo "note: making after cleaning"
    makeinstall() {
    sudo make clean
    make 
@@ -61,7 +63,3 @@ cd ../../..
 grep -i "fatal" makeReport.log
 grep -i "error" makeReport.log
 grep -i "warning" makeReport.log
-
-
-
-
